@@ -8,9 +8,11 @@ Return list_to_map variable
 */
 
 Map func(List lst1, List lst2) {
-  return;
+  Map list_to_map = {};
+  list_to_map = {lst1:lst2};
+  return list_to_map;
 }
 
 void main() {
-  print(func());
+  print(func([0],[8]));
 }
