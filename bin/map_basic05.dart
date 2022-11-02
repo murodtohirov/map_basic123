@@ -7,7 +7,8 @@ Then return the map.
 */
 
 Map func() {
-  Map dct = {'Turdimurod': 'Tohirov'};
+  Map dct = {};
+  dct['Tohirov'] = 'Turdimurod';
   return dct;
 }
 
